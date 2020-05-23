@@ -1,0 +1,240 @@
+html,
+body {
+    margin: 0;
+    background-color: aliceblue;
+    color: #22272a;
+    font-size: 22px;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    height: 350px;
+    overflow: hidden;
+}
+
+.logo img {
+    height: 300px;
+}
+.navbar-fixed-top {
+    top: 250px;
+    position: fixed;
+    text-align: center;
+    height: 45px;
+    width: 900px;
+    z-index: 4;    
+}
+
+.navbar-fixed-top ul {
+    position: relative;
+    top: 5px;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-fixed-top li {
+    display: inline-block;
+    margin: 0 40px;
+    padding: 0 10px;
+    color: #152e37;
+    border-bottom: 1px solid rgb(80, 80, 80);
+    border-top: 1px solid rgb(80, 80, 80);
+    font-size: 28px;
+}
+
+.navbar-fixed-top a {
+    text-decoration: none;
+    color: #152e37;
+}
+ 
+.navbar-fixed-top a:visited {
+    color: #152e37;
+    text-decoration: none;
+}
+
+.poster {
+    background-image: url("../images/poster.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.about {
+    height: 1500px;
+}
+
+.textAbout {
+    position: relative;
+    top: 400px;
+    left: 700px;
+    padding-top: 50px;
+    width: 700px;
+}
+
+.textAbout h5 {
+    color: #152e37;
+}
+
+.services {
+    padding: 50px 0;
+    display: inline-flex;
+    height: 600px;
+    width: 100px;
+    justify-content: center;
+}
+
+.serv {
+    width: 450px;
+    padding:30px;
+}
+
+.serv h2 {
+    position: relative;
+    padding-bottom: 15px;
+}
+
+
+.serv img {
+    max-width: 300px;
+    height: 232px;
+
+}
+
+.more {
+    width: 150px;
+    height: 35px;
+    background-color: rgb(179, 150, 97);
+    text-align: center;
+    position: relative;
+    left: 95px;
+    border-radius: 10px;
+    color: #152e37;
+}
+
+.more a {
+    color: #152e37;
+    text-decoration: none;
+}
+
+.more:hover {
+    background-color: aliceblue;
+}
+
+.more:active {
+    background-color: aliceblue;
+}
+.more a:active {
+    color: rgb(122, 170, 189);
+}
+
+#more {
+    top: 23px;
+}
+
+.serv h2 {
+    text-decoration: underline;
+}
+
+.serv h5 {
+    color: #39555f;
+}
+
+.teamContainer {
+    padding-top: 120px ;
+    display: inline-flex;
+    height: 600px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.stripe {
+    border: 1px solid grey;
+    background-color: rgb(202, 212, 216);
+    height: 50px;
+    text-align: center;
+    width: 100%;
+    opacity: 0.7;
+}
+
+.stripe h2 {
+    position: relative;
+    bottom: 25px;
+}
+
+.teamElem {
+    background-color: rgb(128, 157, 168);
+    
+    width: 100%;
+    height: 200px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.teamElem img {
+    max-width: 400px;
+    height: 200px;
+    position: relative;
+    
+    
+}
+
+.contact {
+    margin-top: 50px;
+    height: 300px;
+    width: 1000px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left {
+    padding-right: 200px;
+}
+
+.right {
+    max-width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.backButton {
+    bottom: 10px;
+    left: 10px;
+    position: fixed;
+    z-index: 5; 
+}
+
+.media{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 5;
+    right: 20px;
+    bottom: 20px;
+    opacity: 0.6;
+}
+
+footer {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(202, 212, 216);
+    margin-top: 100px; 
+}
+
+footer p {
+    position: relative;
+    top: 5px;
+}
+
+
